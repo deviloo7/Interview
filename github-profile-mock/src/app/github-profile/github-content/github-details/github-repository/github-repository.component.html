@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <div class="search">
+        <input type="text" class="form-control" id="pwd" #input (keyup)="search(input.value)">
+    </div>
+    <div class="repo" *ngFor="let title of filterData">
+        <div class="repo-info">
+            <h1>{{title}}</h1>
+        </div>
+        
+    </div>
+</div>

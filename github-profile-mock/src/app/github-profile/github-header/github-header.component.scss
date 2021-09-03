@@ -1,0 +1,15 @@
+.header{
+  
+    background-color: black;
+    display: flex;
+    .list{
+        display: flex;
+    }
+    .list h1{
+        color: white;
+        margin-left: 12px;
+        font-size: 18px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+}
